@@ -16,7 +16,7 @@ NAME | LINK | UPDATE | RULES COUNT
 rule-providers:
   clashBlock_reject:
     type: http
-    behavior: classical
+    behavior: domain
     path: "./rule_provider/clashBlock_reject.yaml"
     url: https://raw.githubusercontent.com/alfatihart/clashBlock/main/rule-provider_reject.yaml
     interval: 86400
