@@ -54,7 +54,7 @@ rules:
 rule-providers:
   clashBlock_oisd_l:
     type: http
-    behavior: classical
+    behavior: domain
     path: "./rule_provider/clashBlock_oisd_l.yaml"
     url: https://raw.githubusercontent.com/alfatihart/clashBlock/main/oisd_light.yaml
     interval: 86400
