@@ -9,40 +9,40 @@ NAME | LINK | UPDATE | RULES COUNT
 
 ## HOW TO
 
-### Adaway
+### Combined Lists from Adguard, Adblock, and Oisd
 
 * rule provider
 ```yaml
 rule-providers:
-  clashBlock_Adaway:
+  clashBlock_reject:
     type: http
     behavior: classical
-    path: "./rule_provider/clashBlock_adaway.yaml"
-    url: https://raw.githubusercontent.com/zzzt27/clashBlock/main/adaway.yaml
+    path: "./rule_provider/clashBlock_reject.yaml"
+    url: https://raw.githubusercontent.com/alfatihart/clashBlock/main/rule-provider_reject.yaml
     interval: 86400
 ```
 
 * rules
 ```yaml
 rules:
-  - RULE-SET,clashBlock_Adaway,REJECT
+  - RULE-SET,clashBlock_reject,REJECT
 ```
 
-### oisd_light
+### Youtube Adblock
 
 * rule provider
 ```yaml
 rule-providers:
-  clashBlock_oisd_l:
+  clashBlock_youtube:
     type: http
     behavior: classical
-    path: "./rule_provider/clashBlock_oisd_l.yaml"
-    url: https://raw.githubusercontent.com/zzzt27/clashBlock/main/oisd_light.yaml
+    path: "./rule_provider/clashBlock_youtube.yaml"
+    url: https://raw.githubusercontent.com/alfatihart/clashBlock/main/youtube_adblock.yaml
     interval: 86400
 ```
 
 * rules
 ```yaml
 rules:
-  - RULE-SET,clashBlock_oisd_l,REJECT
+  - RULE-SET,clashBlock_youtube,REJECT
 ```
