@@ -35,7 +35,7 @@ rules:
 rule-providers:
   clashBlock_youtube:
     type: http
-    behavior: classical
+    behavior: domain
     path: "./rule_provider/clashBlock_youtube.yaml"
     url: https://raw.githubusercontent.com/alfatihart/clashBlock/main/youtube_adblock.yaml
     interval: 86400
