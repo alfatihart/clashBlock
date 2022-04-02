@@ -36527,7 +36527,7 @@ payload:
   - '+.i.wuhaolin.cn'
   - '+.iads.xinmin.cn'
   - '+.idcot.com'
-  - '+.img.hc360.com'
+  - '+.img*.hc360.com'
   - '+.img.3sjt.com'
   - '+.img.meipic.net'
   - '+.img1.126.net'
